@@ -6,7 +6,6 @@ import AboutSection from "./components/AboutSection";
 import ManifestoSection from "./components/ManifestoSection";
 import IssuesSection from "./components/IssuesSection";
 import BannerSection from "./components/BannerSection";
-import JoinSection from "./components/JoinSection";
 import ConnectWithUs from "./components/ConnectWithUs";
 import Footer from "./components/Footer";
 
@@ -30,9 +29,6 @@ export default function App() {
 
       {/* Banner Section Call to Action banner */}
       <BannerSection />
-
-      {/* Dynamic Membership IDs & Grassroots lists */}
-      <JoinSection />
 
       {/* Connect with us Google Form Embedded Page */}
       <ConnectWithUs />

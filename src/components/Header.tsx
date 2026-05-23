@@ -26,7 +26,6 @@ export default function Header() {
         "about",
         "manifesto",
         "issues",
-        "join-us",
         "connect"
       ];
 
@@ -86,7 +85,6 @@ export default function Header() {
     { label: "Vision", actionId: "about" },
     { label: "Manifesto", actionId: "manifesto" },
     { label: "Issues", actionId: "issues" },
-    { label: "Movement", actionId: "join-us" },
     { label: "Contact", actionId: "connect" }
   ];
 
@@ -144,10 +142,10 @@ export default function Header() {
         {/* CTA Button exactly as shown in screenshot */}
         <div className="hidden lg:flex items-center">
           <button
-            onClick={() => scrollToSection("join-us")}
+            onClick={() => scrollToSection("connect")}
             className="bg-[#ea580c] hover:bg-[#c2410c] px-5 py-2.5 rounded-lg text-[10px] font-black tracking-widest uppercase text-white shadow-lg shadow-orange-500/10 cursor-pointer active:scale-95 transition-all text-center flex items-center gap-1.5"
           >
-            JOIN RYJP
+            CONNECT WITH US
           </button>
         </div>
 
@@ -179,10 +177,10 @@ export default function Header() {
           })}
           <div className="pt-2">
             <button
-              onClick={() => scrollToSection("join-us")}
+              onClick={() => scrollToSection("connect")}
               className="w-full bg-[#ea580c] hover:bg-orange-600 text-white font-extrabold py-3 px-4 rounded-lg text-center text-xs tracking-widest uppercase"
             >
-              JOIN RYJP
+              CONNECT WITH US
             </button>
           </div>
         </div>
