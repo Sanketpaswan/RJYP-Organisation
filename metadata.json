@@ -1,0 +1,6 @@
+{
+  "name": "RYJP - Rashtriya Yuva Jan Shakti Party",
+  "description": "The official web portal of the Rashtriya Yuva Jan Shakti Party (RYJP) - a youth-driven movement standing for truth, empowerment, and progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
